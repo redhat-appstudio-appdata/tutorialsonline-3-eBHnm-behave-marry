@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: spring-boot-server-tutorialsonline-7cvr
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/atul-fulambarkar-tenant/tutorialsonline-3/spring-boot-server-tutorialsonline-7cvr@sha256:91da5674319ee22c0faf2908c57f6de0ad7d4f5e842dc0fc5a2328cf9f892180
+        name: my-java-springboot
+        resources: {}
+status: {}
